@@ -2,7 +2,9 @@
 #### In these notes
 
 *santafe* is an example tag name.   
-docker maps the port 8080 port inside the container to the port 3000 on your machine.
+docker maps the port *8080* port inside the container to the port *3000* on your machine.
+
+Go to the directory that has your *Dockerfile* and run the following commands
 
 #### Build your image
 
