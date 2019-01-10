@@ -1,4 +1,9 @@
 
+#### In these notes
+
+*santafe* is an example tag name.   
+docker maps the port 8080 port inside the container to the port 3000 on your machine.
+
 #### Build your image
 
 ```
@@ -37,11 +42,6 @@ docker logs <container id>
 ```
 docker exec -it <container id> /bin/bash
 ```
-
-#### In these notes
-
-**santafe** is an example tag name.   
-docker mapped the port 8080 port inside the container to the port 3000 on your machine.
 
 ### References
 
