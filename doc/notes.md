@@ -9,7 +9,7 @@ Go to the directory that has your *Dockerfile* and run the following commands
 #### Build your image
 
 ```
-docker built -t santafe .
+docker build -t santafe .
 ```
 
 #### List your images
