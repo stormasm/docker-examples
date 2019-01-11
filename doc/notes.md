@@ -1,6 +1,20 @@
 
 #### In these notes
 
+#### Pull your image
+
+Pull an image from a registry
+
+```
+docker pull <image name>
+```
+
+Delete an image from the local image store
+
+```
+docker rmi <image name>
+```
+
 *santafe* is an example tag name.   
 docker maps the port *8080* port inside the container to the port *3000* on your machine.
 
