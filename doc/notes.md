@@ -3,7 +3,7 @@
 
 #### Pull your image
 
-Pull an image from a registry [ref](https://docs.docker.com/engine/reference/commandline/pull/)
+[Pull an image from a registry](https://docs.docker.com/engine/reference/commandline/pull/)
 
 ```
 docker pull <image name>
