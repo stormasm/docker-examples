@@ -2,7 +2,7 @@
 This will get nginx up and running on your machine..
 
 ```
-dock run --name santafe -d -p 3000:80 nginx
+docker run --name santafe -d -p 3000:80 nginx
 ```
 
 Simply point your browser at port 3000 and you will see the nginx welcome page

@@ -57,10 +57,16 @@ docker build -t santafe .
 docker images
 ```
 
-#### Run your image
+#### Run your image that you tagged as santafe
 
 ```
 docker run -p 3000:8080 -d santafe
+```
+
+#### Run the default nginx image and tag it as corvallis
+
+```
+docker run --name corvallis -p 3000:80 -d nginx
 ```
 
 * -d run the container in detached mode leaving the container running in the background
