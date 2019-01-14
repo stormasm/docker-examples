@@ -99,10 +99,35 @@ apt-get -y install emacs25-nox
 
 ```
 docker container ls -q
-dock container stop <container id>
-dock container rm   <container id>
+```
+
+#### Stop then Remove a container
+
+```
+docker container stop <container id>
+docker container rm   <container id>
+
+docker rm <container id>
+```
+
+#### Show the number of running and stopped containers
+
+```
+docker system df
+```
+
+#### Show all of the running and stopped containers
+
+```
+docker ps -a
 ```
 
 ### References
 
 https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
+
+#### Docker aliases
+
+```
+alias dock='sudo docker'
+```
