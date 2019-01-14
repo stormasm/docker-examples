@@ -82,6 +82,11 @@ docker logs <container id>
 
 ```
 docker exec -it <container id> /bin/bash
+
+And if you need an editor...
+
+apt-get update
+apt-get -y install emacs25-nox
 ```
 
 #### Just show the container ids and nothing else
