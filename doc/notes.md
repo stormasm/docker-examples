@@ -83,6 +83,12 @@ docker logs <container id>
 docker exec -it <container id> /bin/bash
 ```
 
+#### Just show the container ids and nothing else
+
+```
+docker container ls -q
+```
+
 ### References
 
 https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
