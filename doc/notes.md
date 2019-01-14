@@ -37,6 +37,7 @@ Delete an image from the local image store
 
 ```
 docker rmi <image name>
+docker rmi -f <image name>     * sometimes it tells you to force removal
 ```
 
 *santafe* is an example tag name.   
@@ -87,6 +88,8 @@ docker exec -it <container id> /bin/bash
 
 ```
 docker container ls -q
+dock container stop <container id>
+dock container rm   <container id>
 ```
 
 ### References
