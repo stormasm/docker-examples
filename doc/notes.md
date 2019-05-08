@@ -57,6 +57,12 @@ docker build -t santafe .
 docker images
 ```
 
+##### Remove more than one image at a time
+
+```
+docker image rm 75835a67d134 2a4cca5ac898
+```
+
 #### Run your image that you tagged as santafe
 
 ```
