@@ -128,6 +128,12 @@ docker system df
 docker ps -a
 ```
 
+#### Show the logs of a running container
+
+```
+docker logs <container name>
+```
+
 ### References
 
 https://docs.docker.com/docker-for-mac/
